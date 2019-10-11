@@ -103,7 +103,7 @@ input{
 
 .summary div{
 	position:relative;
-	margin:0 7px;
+	padding:0 7px;
 	margin-bottom:10px;
 	width:100%;
 }
@@ -112,8 +112,6 @@ input{
 	display:flex;
 	flex-wrap:wrap;
 	align-items:flex-start;
-}
-
 }
 
 .product{
