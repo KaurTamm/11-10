@@ -97,6 +97,8 @@ input{
 	padding-top:100px;
 	z-index:6;
 	padding-bottom:40px;
+	border-radius:0 0 0 50px;
+	margin-bottom:-50px;
 }
 
 .summary div{
@@ -118,4 +120,19 @@ input{
 
 .font-size--30{
 	font-size:30px;
+}
+
+/*CTA*/
+
+.cta{
+	position:relative;
+	background-image: linear-gradient(to right, #2baec8, #790954);
+	color:#fff;
+	padding-top:80px;
+	padding-bottom:30px;
+	z-index:4;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
 }
