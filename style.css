@@ -17,13 +17,15 @@ body{
 .page{
 	position:relative;
 	height:100vh;
-	margin:10px 10px;
 }
 
 .header{
 	position:relative;
 	height:20%;
 	background:#FFFFFE;
+	margin-bottom:-50px;
+	border-radius:0 0 0 50px;
+	z-index:10;
 }
 
 .nav{
@@ -38,6 +40,7 @@ body{
 .nav div{
 	position:relative;
 	cursor:pointer;
+	margin:10px 10px;
 }
 
 .title{
@@ -45,4 +48,36 @@ body{
 	margin-top:10px;
 	margin-left:25px;
 	font-weight:bolder;
+}
+
+.input{
+	position:relative;
+	background-image: linear-gradient(to right, #2baec8, #790954);
+	padding-top:80px;
+	z-index:3;
+}
+
+form{
+	position:relative;
+	display:flex;
+	flex-wrap:wrap;
+
+}
+
+.inputcontent{
+	position:relative;
+	margin:0 20px;
+	color:#fff;
+	margin-bottom:20px;
+}
+
+input{
+	position:relative;
+	background:none;
+	border:none;
+}
+
+::placeholder{
+	opacity:0.8;
+	color:#fff;
 }
