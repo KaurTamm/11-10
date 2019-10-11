@@ -9,4 +9,40 @@ body{
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
 	color: #263238;
+	height:100vh;
+	display:flex;
+	flex-direction:column;
+}
+
+.page{
+	position:relative;
+	height:100vh;
+	margin:10px 10px;
+}
+
+.header{
+	position:relative;
+	height:20%;
+	background:#FFFFFE;
+}
+
+.nav{
+	position:relative;
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+	color:gray;
+	font-weight:bold;
+}
+
+.nav div{
+	position:relative;
+	cursor:pointer;
+}
+
+.title{
+	position:relative;
+	margin-top:10px;
+	margin-left:25px;
+	font-weight:bolder;
 }
