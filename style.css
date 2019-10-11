@@ -19,6 +19,8 @@ body{
 	height:100vh;
 }
 
+/*HEADER*/
+
 .header{
 	position:relative;
 	height:20%;
@@ -50,11 +52,15 @@ body{
 	font-weight:bolder;
 }
 
+/*FORM*/
+
 .input{
 	position:relative;
 	background-image: linear-gradient(to right, #2baec8, #790954);
 	padding-top:80px;
-	z-index:3;
+	margin-bottom:-50px;
+	border-radius:0 0 0 50px;
+	z-index:8;
 }
 
 form{
@@ -80,4 +86,36 @@ input{
 ::placeholder{
 	opacity:0.8;
 	color:#fff;
+}
+
+/*SUMMARY*/
+
+.summary{
+	position:relative;
+	background:#1A0000;
+	color:#fff;
+	padding-top:100px;
+	z-index:6;
+	padding-bottom:40px;
+}
+
+.summary div{
+	position:relative;
+	margin:0 10px;
+	margin-bottom:10px;
+}
+
+.product{
+	position:relative;
+	display:flex;
+	justify-content:space-between;
+}
+
+.border-bottom--solid{
+	border-bottom:1px solid;
+	border-color:gray;
+}
+
+.font-size--30{
+	font-size:30px;
 }
